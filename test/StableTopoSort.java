@@ -10,6 +10,7 @@ import java.util.*;
  * https://github.com/DavePearce/StronglyConnectedComponents/blob/master/src/PeaFindScc2.java
  * https://github.com/gonum/gonum/blob/master/graph/topo/tarjan.go
  * http://homepages.ecs.vuw.ac.nz/~djp/files/IPL15-preprint.pdf
+ * https://habr.com/ru/post/451208/
  */
 public final class StableTopoSort {
 
