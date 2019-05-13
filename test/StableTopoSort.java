@@ -303,6 +303,12 @@ public final class StableTopoSort {
 
     void assertSort(String... expected) {
         Node[] graphArr = graph.toArray(emptyNodes);
+        doAssertSort(graphArr, expected);
+        // Since our algorithm is stable, subsequent sorts must not change order
+        doAssertSort(graphArr, expected);
+    }
+
+    private void doAssertSort(Node[] graphArr, String[] expected) {
         stableTopoSort(graphArr);
 
         Assert.assertEquals(graphArr.length, expected.length);
