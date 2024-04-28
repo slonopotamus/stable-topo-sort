@@ -9,7 +9,7 @@ import java.util.*;
  * https://doi.org/10.1016/j.ipl.2015.08.010
  * https://github.com/DavePearce/StronglyConnectedComponents/blob/master/src/PeaFindScc2.java
  * https://github.com/gonum/gonum/blob/master/graph/topo/tarjan.go
- * http://homepages.ecs.vuw.ac.nz/~djp/files/IPL15-preprint.pdf
+ * https://whileydave.com/publications/Pea16_IPL_preprint.pdf
  * https://habr.com/ru/post/451208/
  */
 public final class StableTopoSort {
